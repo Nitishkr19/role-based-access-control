@@ -1,0 +1,64 @@
+.role-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #c9aaaa;
+    border-radius: 8px;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #a37272;
+  }
+  
+  .role-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .role-name-input {
+    margin-bottom: 16px;
+
+  }
+  
+  .permissions-table {
+    margin-top: 16px;
+
+  }
+  
+  .permission-name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .checkbox {
+    padding: 0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .cancel-button {
+    width: 48%;
+  }
+  
+  .submit-button {
+    width: 48%;
+  }
+  @media (max-width: 768px) {
+    .role-form-container {
+      padding: 16px;
+      width: 100%;
+    }
+    .role-form-card {
+      padding: 16px;
+    }
+  }

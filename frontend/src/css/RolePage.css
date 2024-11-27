@@ -1,0 +1,29 @@
+.add-role-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .table-header-row {
+    background-color: #aa9494;
+  }
+  
+  .table-header-cell {
+    font-weight: bold;
+  }
+  
+  .table-row:hover {
+    background-color: #f0f8ff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar {
+    width: 300px;
+  }
+  
+  .fab-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  

@@ -1,0 +1,64 @@
+.add-permission-icon-button {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.add-permission-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.permissions-container {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.permissions-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.add-permission-button {
+    margin-bottom: 20px;
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+}
+
+.add-permission-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.permission-input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.permission-table-container {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.permission-actions .MuiIconButton-root {
+    margin-left: 10px;
+}
+
+.dialog-actions .MuiButton-root {
+    background-color: #1976d2;
+    color: white;
+}
+
+.dialog-content .MuiTextField-root {
+    margin-bottom: 10px;
+    padding: 40px;
+}
+
+.table-header-row {
+    background-color: #aa9494;
+}

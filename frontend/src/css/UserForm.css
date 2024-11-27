@@ -1,0 +1,50 @@
+.user-form-container {
+  padding: 16px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #c0aaaa;
+  border-radius: 8px;
+}
+
+.user-form-card {
+  padding: 20px;
+}
+
+.user-form-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #a37272;
+}
+
+.user-form-input {
+  margin-bottom: 16px;
+}
+
+.user-form-cancel-button,
+.user-form-submit-button {
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.user-form-container .MuiStack-root {
+  margin-top: 16px;
+}
+
+.MuiTextField-root.Mui-error {
+  border: 1px solid red;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  color: red;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .user-form-container {
+    padding: 16px;
+    width: 100%;
+  }
+  .user-form-card {
+    padding: 16px;
+  }
+}
