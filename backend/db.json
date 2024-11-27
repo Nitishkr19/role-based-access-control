@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": "8e20",
+      "name": "nitik",
+      "email": "n123@gmail.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "6e44",
+      "name": "nn",
+      "email": "n124@gmail.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": "6eb3",
+      "name": "ss",
+      "email": "n123@gmail.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "3de4",
+      "name": "nn",
+      "email": "n124@gmail.com",
+      "role": "aaa",
+      "status": "Active"
+    },
+    {
+      "id": "44f0",
+      "name": "aaa",
+      "email": "n125@gmail.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "c645",
+      "name": "nitik",
+      "email": "n135@gmail.com",
+      "role": "aaa",
+      "status": "Active"
+    },
+    {
+      "id": "f78d",
+      "name": "nitik",
+      "email": "s@gmail.com",
+      "role": "Editor",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "af51",
+      "name": "Admin",
+      "permissions": [
+        {
+          "id": "ae90",
+          "name": "Read"
+        },
+        {
+          "id": "8c85",
+          "name": "Write"
+        },
+        {
+          "id": "a30e",
+          "name": "Delete"
+        }
+      ]
+    },
+    {
+      "id": "2d88",
+      "name": "Editor",
+      "permissions": [
+        {
+          "id": "ae90",
+          "name": "Read"
+        },
+        {
+          "id": "8c85",
+          "name": "Write"
+        }
+      ]
+    },
+    {
+      "id": "9b29",
+      "name": "Viewer",
+      "permissions": [
+        {
+          "id": "ae90",
+          "name": "Read"
+        }
+      ]
+    },
+    {
+      "id": "1f4f",
+      "name": "aaa",
+      "permissions": [
+        {
+          "id": "ae90",
+          "name": "Read"
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "ae90",
+      "name": "Read"
+    },
+    {
+      "id": "8c85",
+      "name": "Write"
+    },
+    {
+      "id": "a30e",
+      "name": "Delete"
+    },
+    {
+      "id": "f546",
+      "name": "aa"
+    }
+  ]
+}
